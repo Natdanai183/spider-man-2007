@@ -10,59 +10,83 @@
 </head>
 
 <body style="background:url('sp.jpg')no-repeat center center; background-size: cover;">
-<h1 style="background: linear-gradient(to right, #016cf8, #0189be, #03c7ce, #02d4a7);
-  color: #000;font-size:300%;text-align:center;width: 100%; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0;">DOO HNUNG GUN</h1>
 
-<p style="color:rgb(252, 249, 249); text-align:center;"></p>
-
-<center><h3 style="background-color:rgb(6, 58, 231); margin-bottom: 0; width: fit-content;">สารบัญ</h3></center>
-<h4 style="background: linear-gradient(to right, #016cf8, #0189be, #03c7ce, #02d4a7);
-  color: #000;width: 100%; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; text-align:center;">แฟนตาซี Fantasy ผจญภัย Adventure การ์ตูน Cartoon แอ็คชั่น Action โรแมนติก Romance หนังสยองขวัญ Horror ลึกลับซ่อนเงื่อน Mystry หนังตลก Comedy สงคราม War หนังดราม่า Drama </h4>
-
-<div style="display: flex; margin: 50px; align-items: flex-start; gap: 20px;">
-    <!-- รูปภาพ -->
-    <img src="_.jpg" alt="Girl in a jacket" width="300" height="428">
-            
-    <!-- วิดีโอและรายการ -->
-    <div style="display: flex; gap: 20px; flex: 1;">
-        <!-- วิดีโอ -->
-        <div>
-<iframe width="700" height="400" src="https://www.youtube.com/embed/zjdtiQx7RIw?si=sDF3OT6Ws0pOMks1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
-        
-        <!-- รายการฝั่งขวาข้างวิดีโอ -->
-        <div style="flex: 1; min-width: 300px;">
-            <h4 style="color: white; background-color: rgba(6, 58, 231, 0.8); padding: 8px; text-align: center; margin: 0 0 10px 0; font-size: 14px;">รายการหนังแนะนำ</h4>
-            <ul style="color: white; font-size: 16px; list-style-type: none; padding: 0; margin: 0;">
-                <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #016cf8; font-size: 16px; text-align: center;">หนังเข้าใหม่</li>
-                <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #0189be; font-size: 16px; text-align: center;">หนังชนโรง</li>
-                <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #03c7ce; font-size: 16px; text-align: center;">หนัง 2025</li>
-                <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #02d4a7; font-size: 16px; text-align: center;">หนัง 2024</li>
-                <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #016cf8; font-size: 16px; text-align: center;">หนัง 2023</li>
-                <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #0189be; font-size: 16px; text-align: center;">หนัง 2022</li>
-                <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #03c7ce; font-size: 16px; text-align: center;">หนัง 2021</li>
-                <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #02d4a7; font-size: 16px; text-align: center;">หนัง 2020</li>
-            </ul>
-        </div>
+  <div class="main-header" style="position: relative; display: flex; align-items: center; justify-content: center; padding: 20px 0;">
+    <!-- โลโก้ที่สามารถกดได้ -->
+    <div class="logo-container" onclick="goToHome()" style="position: absolute; left: 50px; z-index: 1000; cursor: pointer; transition: transform 0.3s ease;">
+      <img src="Logo.png" alt="DOO HNUNG GUN Logo" width="300" height="250">
     </div>
-</div>
+    
+    <h1 style="background: linear-gradient(to right, #016cf8, #0189be, #03c7ce, #02d4a7);
+      color: #000;font-size:300%;text-align:center;width: 100%; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0;">DOO HNUNG GUN</h1>
+  </div>
 
-<!-- ข้อความและรายการ -->
-<div style="display: flex; margin: 0 50px 50px 50px; gap: 30px;">
-    <!-- ข้อความฝั่งซ้าย -->
-    <div style="flex: 2;">
-        <p style="color: white; font-size: 30px;">
-            Spider-man 2007 ไอ้แมงมุม สไปเดอร์แมน (ภาค 3)<br>
-        </p>
+  <p style="color:rgb(252, 249, 249); text-align:center;"></p>
 
-        <p style="color: white; font-size: 16px;">
-            Release: 2007<br>
+  <center><h3 style="background-color:rgb(6, 58, 231); margin-bottom: 0; width: fit-content;">สารบัญ</h3></center>
+  <h4 style="background: linear-gradient(to right, #016cf8, #0189be, #03c7ce, #02d4a7);
+    color: #000;width: 100%; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; text-align:center;">แฟนตาซี Fantasy ผจญภัย Adventure การ์ตูน Cartoon แอ็คชั่น Action โรแมนติก Romance หนังสยองขวัญ Horror ลึกลับซ่อนเงื่อน Mystry หนังตลก Comedy สงคราม War หนังดราม่า Drama </h4>
+
+  <div style="display: flex; margin: 50px; align-items: flex-start; gap: 20px;">
+      <!-- รูปภาพ -->
+      <img src="_.jpg" alt="Girl in a jacket" width="300" height="428">
+              
+      <!-- วิดีโอและรายการ -->
+      <div style="display: flex; gap: 20px; flex: 1;">
+          <!-- วิดีโอ -->
+          <div>
+              <iframe width="700" height="400" src="https://www.youtube.com/embed/1s9Yln0YwCw?si=dM-Nwyn0e1rzbKqG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          
+          <!-- รายการฝั่งขวาข้างวิดีโอ -->
+          <div style="flex: 1; min-width: 300px;">
+              <h4 style="color: white; background-color: rgba(6, 58, 231, 0.8); padding: 8px; text-align: center; margin: 0 0 10px 0; font-size: 14px;">รายการหนังแนะนำ</h4>
+              <ul style="color: white; font-size: 16px; list-style-type: none; padding: 0; margin: 0;">
+                  <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #016cf8; font-size: 16px; text-align: center;">หนังเข้าใหม่</li>
+                  <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #0189be; font-size: 16px; text-align: center;">หนังชนโรง</li>
+                  <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #03c7ce; font-size: 16px; text-align: center;">หนัง 2025</li>
+                  <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #02d4a7; font-size: 16px; text-align: center;">หนัง 2024</li>
+                  <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #016cf8; font-size: 16px; text-align: center;">หนัง 2023</li>
+                  <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #0189be; font-size: 16px; text-align: center;">หนัง 2022</li>
+                  <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #03c7ce; font-size: 16px; text-align: center;">หนัง 2021</li>
+                  <li style="background-color: rgba(0, 0, 0, 0.6); margin: 3px 0; padding: 12px 8px; border-left: 3px solid #02d4a7; font-size: 16px; text-align: center;">หนัง 2020</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+
+  <!-- ข้อความและรายการ -->
+  <div style="display: flex; margin: 0 50px 50px 50px; gap: 30px;">
+      <!-- ข้อความฝั่งซ้าย -->
+      <div style="flex: 2;">
+          <p style="color: white; font-size: 30px;">
+              Spider-man 2007 ไอ้แมงมุม สไปเดอร์แมน (ภาค 3)<br>
+          </p>
+
+          <p style="color: white; font-size: 16px;">
+              Release: 2007<br>
             Director: Sam Raimi<br>
             Country: United States<br>
             Actors: Tobey Maguire,Kirsten Dunst,James Franco,Thomas Haden Church,Topher Grace,Bryce Dallas Howard,James Cromwell<br>
         </p>
-      <p style="color: white; font-size: 16px;">
-เรื่องย่อของ Spider-Man 3 (2007) คือ ปีเตอร์ ปาร์คเกอร์ (Spider-Man) ต้องเผชิญหน้ากับความท้าทายหลายด้าน ทั้งจากภายในและภายนอก ตัวละครต้องรับมือกับพลังใหม่ที่เกิดจากชุดสไปเดอร์แมนสีดำ ซึ่งนำมาซึ่งความแข็งแกร่งและความก้าวร้าวที่มากขึ้น ขณะเดียวกันเขาก็ต้องต่อสู้กับวายร้าย 3 คน ได้แก่ แซนด์แมน, นิวก็อบลิน, และเวน่อม ซึ่งแต่ละคนก็มีเป้าหมายและแรงจูงใจที่แตกต่างกัน ปีเตอร์ต้องเรียนรู้ที่จะควบคุมพลังของตัวเอง, จัดการกับความสัมพันธ์ที่ซับซ้อนกับทั้งเมรี่ เจน วัตสันและแฮร์รี่ ออสบอร์น, และตัดสินใจว่าจะใช้พลังของเขาเพื่ออะไร ในที่สุด เขาต้องเลือกที่จะเป็นฮีโร่ที่แท้จริงและเอาชนะความมืดในใจของตัวเองได้ในที่สุด
-    </div>
+          </p>
+          <p style="color: white; font-size: 16px;">
+              เรื่องย่อของ Spider-Man 3 (2007) คือ ปีเตอร์ ปาร์คเกอร์ (Spider-Man) ต้องเผชิญหน้ากับความท้าทายหลายด้าน ทั้งจากภายในและภายนอก ตัวละครต้องรับมือกับพลังใหม่ที่เกิดจากชุดสไปเดอร์แมนสีดำ ซึ่งนำมาซึ่งความแข็งแกร่งและความก้าวร้าวที่มากขึ้น ขณะเดียวกันเขาก็ต้องต่อสู้กับวายร้าย 3 คน ได้แก่ แซนด์แมน, นิวก็อบลิน, และเวน่อม ซึ่งแต่ละคนก็มีเป้าหมายและแรงจูงใจที่แตกต่างกัน ปีเตอร์ต้องเรียนรู้ที่จะควบคุมพลังของตัวเอง, จัดการกับความสัมพันธ์ที่ซับซ้อนกับทั้งเมรี่ เจน วัตสันและแฮร์รี่ ออสบอร์น, และตัดสินใจว่าจะใช้พลังของเขาเพื่ออะไร ในที่สุด เขาต้องเลือกที่จะเป็นฮีโร่ที่แท้จริงและเอาชนะความมืดในใจของตัวเองได้ในที่สุด
+    </div
+      </div>
+  </div>
+
+  <script>
+    function goToHome() {
+      // ไปหน้าแรก - เปลี่ยนเป็นชื่อไฟล์หน้าแรกของคุณ
+      window.location.href = 'https://natdanai183.github.io/-/';
+      
+      // หรือถ้าต้องการไปหน้าอื่นๆ ให้เปลี่ยน URL:
+      // window.location.href = 'homepage.html';
+      // window.location.href = 'main.html';
+      // window.location.href = 'home.php';
+    }
+  </script>
 
 </body>
 </html>
